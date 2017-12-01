@@ -1,0 +1,66 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background-color: black;
+}
+
+section {
+	width: 100%;
+}
+
+a {
+    color: black;
+}
+
+#header-container {
+	position: relative;
+	margin: 0px auto;
+	width: 1000px;
+	padding-left: 200px;
+}
+
+.header-element {
+	height: 200px;
+	width: 400px;
+	background-color: #000;
+	border-bottom: 5px solid white;
+	display: inline-block;
+	position: relative;	
+}
+
+#top-header-left {
+	float: left;
+	font-size: 1.8em;
+	border-right: 2.5px solid white;
+}
+
+#top-header-right {
+	font-size: 1.2em;
+	border-left: 2.5px solid white;
+}
+
+#main-text {
+	width: 900px;
+	margin-left: auto;
+    margin-right:auto;
+	text-align: center;
+}
+
+#footer-icons {
+	width: 900px;
+	height: 120px;
+	background-color: #910318;
+	padding-top: 20px;
+	padding-left: 50px;
+	margin-left: auto;
+    margin-right:auto;
+	text-align: center;
+}
+
+#main-img {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
